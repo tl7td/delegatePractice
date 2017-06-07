@@ -14,6 +14,7 @@
 		136322A31EE7D89600F76302 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136322A21EE7D89600F76302 /* ActivityTableViewController.swift */; };
 		136322A51EE7D8E800F76302 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136322A41EE7D8E800F76302 /* Activity.swift */; };
 		136322A71EE7E05100F76302 /* ActivityDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136322A61EE7E05100F76302 /* ActivityDetailViewController.swift */; };
+		136322A91EE7ED1000F76302 /* AddActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 136322A81EE7ED1000F76302 /* AddActivityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		136322A21EE7D89600F76302 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityTableViewController.swift; path = ../ActivityTableViewController.swift; sourceTree = "<group>"; };
 		136322A41EE7D8E800F76302 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
 		136322A61EE7E05100F76302 /* ActivityDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityDetailViewController.swift; sourceTree = "<group>"; };
+		136322A81EE7ED1000F76302 /* AddActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddActivityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				136322A21EE7D89600F76302 /* ActivityTableViewController.swift */,
 				136322901EE7D78300F76302 /* AppDelegate.swift */,
 				136322941EE7D78300F76302 /* Main.storyboard */,
+				136322A81EE7ED1000F76302 /* AddActivityViewController.swift */,
 				136322A61EE7E05100F76302 /* ActivityDetailViewController.swift */,
 				136322A41EE7D8E800F76302 /* Activity.swift */,
 				136322971EE7D78300F76302 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				136322A71EE7E05100F76302 /* ActivityDetailViewController.swift in Sources */,
 				136322A51EE7D8E800F76302 /* Activity.swift in Sources */,
 				136322A31EE7D89600F76302 /* ActivityTableViewController.swift in Sources */,
+				136322A91EE7ED1000F76302 /* AddActivityViewController.swift in Sources */,
 				136322911EE7D78300F76302 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
