@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ActivityTableViewController: UITableViewController {
+class ActivityTableViewController: UITableViewController, AddActivityDelegate {
 
     var activities: [Activity] = []
     
@@ -37,6 +37,12 @@ class ActivityTableViewController: UITableViewController {
 
     // MARK: - Table view data source
 
+    func didSaveActivity(activity: Activity){
+        print("Activity was saved:")
+        activities.append(activity)
+        self.tableView.reloadData()
+    }
+    
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
     }
@@ -75,9 +81,14 @@ class ActivityTableViewController: UITableViewController {
             
             //activityDetailViewController.nameLabel.text =
         }
+        if segue.identifier == "addNewAct"{
+            let navigationViewController = segue.destination as! UINavigationController
+            let addActivityController = navigationViewController.topViewController as! AddActivityViewController
+            addActivityController.delegate = self
+            //addActivityController.activityTableViewController = self
+        }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
     }
-    
 
 }

@@ -56,7 +56,7 @@
                     <navigationItem key="navigationItem" title="Activities" id="AcT-MS-nIK">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="IAH-Io-xzm">
                             <connections>
-                                <segue destination="XJR-lt-9YS" kind="presentation" id="Qj0-yh-Rio"/>
+                                <segue destination="XJR-lt-9YS" kind="presentation" identifier="addNewAct" id="Qj0-yh-Rio"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
