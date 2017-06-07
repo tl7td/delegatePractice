@@ -52,11 +52,39 @@
                             <outlet property="delegate" destination="PbK-Y8-y0j" id="HY0-Ig-1C0"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Activities" id="AcT-MS-nIK"/>
+                    <navigationItem key="navigationItem" title="Activities" id="AcT-MS-nIK">
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="IAH-Io-xzm">
+                            <connections>
+                                <segue destination="XJR-lt-9YS" kind="presentation" id="Qj0-yh-Rio"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q5W-3w-A4x" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="661.60000000000002" y="131.78410794602701"/>
+        </scene>
+        <!--Add Activity-->
+        <scene sceneID="fmR-l2-t8D">
+            <objects>
+                <viewController id="25I-q6-uoV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cXX-v3-2fp"/>
+                        <viewControllerLayoutGuide type="bottom" id="Nbb-EN-zZH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ngb-c2-3bh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Add Activity" id="Y0s-Lo-QGO">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="myc-TR-2Uq"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="qLW-kt-JhR"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NCF-b1-yS5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2504.8000000000002" y="-533.88305847076469"/>
         </scene>
         <!--Detail-->
         <scene sceneID="PoA-tV-s38">
@@ -118,6 +146,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Ks-d3-X6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-277.60000000000002" y="131.78410794602701"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Zl3-mh-yQD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="XJR-lt-9YS" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="xfy-wh-d1F">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="25I-q6-uoV" kind="relationship" relationship="rootViewController" id="z05-5N-v6c"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v9s-d0-h22" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1565.5999999999999" y="-533.88305847076469"/>
         </scene>
     </scenes>
 </document>
