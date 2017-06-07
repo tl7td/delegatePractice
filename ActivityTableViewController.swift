@@ -47,7 +47,7 @@ class ActivityTableViewController: UITableViewController {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "activityCell", for: indexPath)
         
-        
+        //
         
         cell.textLabel?.text = activities[indexPath.row].name
         cell.detailTextLabel?.text = activities[indexPath.row].description
